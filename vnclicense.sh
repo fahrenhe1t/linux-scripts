@@ -1,5 +1,5 @@
 #!/bin/bash
-# Applies RealVNC license key
+# vnclicense.sh - Applies RealVNC license key
 
 echo ""
 echo "Apply RealVNC License"

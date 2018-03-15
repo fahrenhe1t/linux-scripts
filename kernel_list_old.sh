@@ -1,5 +1,5 @@
 #!/bin/bash
-#Lists old kernels installed on the machine
+# kernel_list_old.sh - Lists old kernels installed on the machine
 echo ""
 echo "Lists old kernels"
 echo ""

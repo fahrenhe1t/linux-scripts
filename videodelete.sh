@@ -1,6 +1,6 @@
 #!/bin/bash
-# Deletes security videos older than 15 days
-
+# videodelete.sh - Deletes security videos older than 15 days
+# can be run nightly to keep a certain number of days worth of content
 echo ""
 echo "Delete Security Videos"
 echo ""

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Moves security videos from root of FTP folder to a folder named todays date
+# videomove.today.sh - Moves security videos from root of FTP folder to a folder named todays date
 #
 echo ""
 echo "videomove.sh - moves security .mkv videos"

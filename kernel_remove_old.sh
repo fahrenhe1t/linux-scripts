@@ -1,5 +1,5 @@
 #!/bin/bash
-#removes old kernels from OS
+# kernel_remove_old.sh - removes old kernels from OS
 (( `id -u` )) && echo "This script MUST be run with root privileges, try prefixing with sudo. i.e. sudo $0" && exit 1
 echo
 echo "Removes old Kernels"

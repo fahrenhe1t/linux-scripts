@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Test Email Script
+# test_email.sh - send a test email with ssmtp
 # usage: test_email.sh to_address subject "message"
 
 # Set Variables

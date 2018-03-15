@@ -1,6 +1,6 @@
 #!/bin/bash
-# Lists security video folders older than 15 days
-
+# videodeleteview.sh - Lists security video folders older than 15 days
+# does not delete the files
 echo ""
 echo "View Old Security Videos"
 echo ""

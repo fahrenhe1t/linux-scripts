@@ -1,6 +1,6 @@
 #!/bin/bash
-# Moves security videos from root of FTP folder to a folder named todays date
-#
+# videomovetest.sh - Moves security videos from root of FTP folder to a folder named todays date
+# views the files that would be moved, but does not move them
 echo ""
 echo "vidmovetest.sh - shows security .mkv videos created today"
 echo ""
