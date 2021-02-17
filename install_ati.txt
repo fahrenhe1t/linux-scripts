@@ -1,0 +1,1 @@
+sudo apt-get install xserver-xorg-video-ati xserver-xorg-video-radeon mesa-vdpau-drivers-lts-vivid vdpau-va-driver vainfo vdpauinfo

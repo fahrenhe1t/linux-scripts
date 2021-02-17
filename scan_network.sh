@@ -1,6 +1,4 @@
 #!/bin/bash
-# scan_network.sh - scan the network with nmap to find hosts
-
 # Quits if subnet is not included in command line
 if [ $# -eq 0 ]; then
     echo "Requires subnet.  i.e. sudo $0 192.168.1.0/24"

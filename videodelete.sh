@@ -1,6 +1,6 @@
 #!/bin/bash
-# videodelete.sh - Deletes security videos older than 15 days
-# can be run nightly to keep a certain number of days worth of content
+# Deletes security videos older than 15 days
+
 echo ""
 echo "Delete Security Videos"
 echo ""
@@ -14,8 +14,8 @@ if [ $# -eq 0 ]; then
 fi
 
 # Set video path variable from command line
-# for example: /mnt/path
-# or /mnt/path
+# for example: /mnt/usb0/ftp/ftp/security/FI9831P_00626E62878A/record
+# or /mnt/usb0/ftp/ftp/security/C1_00626E60AAC1/record 
 viddir="$1"
 
 # Find directories in video path older than 15 days, delete them

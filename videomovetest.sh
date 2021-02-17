@@ -1,13 +1,13 @@
 #!/bin/bash
-# videomovetest.sh - Moves security videos from root of FTP folder to a folder named todays date
-# views the files that would be moved, but does not move them
+# Moves security videos from root of FTP folder to a folder named todays date
+#
 echo ""
 echo "vidmovetest.sh - shows security .mkv videos created today"
 echo ""
 #(( `id -u` )) && echo "This script MUST be run with root privileges, try prefixing with sudo. i.e. sudo $0" && exit 1
 #if [ "$1" == "" ];
 if [ -z "$1" ]; then
-   echo "Script requires a path to videos.  Try $0 /mnt/path"
+   echo "Script requires a path to videos.  Try $0 /mnt/usb0/ftp/ftp/security/FI9831P_00626E62878A/record"
    echo ""
    exit 1
 else
@@ -23,7 +23,7 @@ else
   echo "Find videos modified today..."
 
   # Find videos in video path that were modified today and exclude files newer than today
-  # find /mnt/path -type f -name "*.mkv" -newermt 2016-01-29 ! -newermt 2016-01-30
-  # find /mnt/path -type f -name "*.mkv" -newermt 2016-02-12 ! -newermt 2016-02-13
+  # find /mnt/usb0/ftp/ftp/security/FI9831P_00626E62878A/record -type f -name "*.mkv" -newermt 2016-01-29 ! -newermt 2016-01-30
+  # find /mnt/usb0/ftp/ftp/security/C1_00626E60AAC1/record -type f -name "*.mkv" -newermt 2016-02-12 ! -newermt 2016-02-13
   find $viddir -maxdepth 1 -type f -name "*.mkv" -newermt $today ! -newermt $tomorrow | grep "."
 fi

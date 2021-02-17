@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# viewconf.sh - View a configuration file without comments or empty lines
+# View a configuration file without comments or empty lines
 
 (( `id -u` )) && echo "This script MUST be run with root privileges, try prefixing with sudo. i.e. sudo $0" && exit 1
 

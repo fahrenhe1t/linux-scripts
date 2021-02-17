@@ -1,6 +1,6 @@
 #!/bin/bash
-# videodeleteview.sh - Lists security video folders older than 15 days
-# does not delete the files
+# Lists security video folders older than 15 days
+
 echo ""
 echo "View Old Security Videos"
 echo ""
@@ -14,8 +14,8 @@ if [ $# -eq 0 ]; then
 fi
 
 # Set video path variable from command line
-# for example: /mnt/path
-# or /mnt/path
+# for example: /mnt/usb1/ftp/ftp/security/FI9831P_00626E62878A/record
+# or /mnt/usb1/ftp/ftp/security/C1_00626E60AAC1/record
 viddir="$1"
 
 # Find directories in video path older than 15 days, delete them

@@ -1,5 +1,4 @@
 #!/bin/sh
-# iperf3_client.sh - runs iperf3 bandwidth tests
 echo ""
 echo "iPerf Client"
 echo ""

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# test_email.sh - send a test email with ssmtp
+# Test Email Script
 # usage: test_email.sh to_address subject "message"
 
 # Set Variables
@@ -11,15 +11,15 @@ echo ""
 echo "Test Email Script"
 echo ""
 if [ -z "$1" ]; then
-   echo "Script requires 'To' address.  Try: $0 you@gmail.com Test \"Test Message\""
+   echo "Script requires 'To' address.  Try: $0 cnimmer@gmail.com Test \"Test Message\""
    echo ""
    exit 1
 elif [ -z "$2" ]; then
-   echo "Script requires 'Subject'.  Try: $0 you@gmail.com Test \"Test Message\""
+   echo "Script requires 'Subject'.  Try: $0 cnimmer@gmail.com Test \"Test Message\""
    echo ""
    exit 1
 elif [ -z "$3" ]; then
-   echo "Script requires a message.  Try: $0 you@gmail.com Test \"Test Message\""
+   echo "Script requires a message.  Try: $0 cnimmer@gmail.com Test \"Test Message\""
    echo ""
    exit 1
 else

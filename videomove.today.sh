@@ -1,5 +1,5 @@
 #!/bin/bash
-# videomove.today.sh - Moves security videos from root of FTP folder to a folder named todays date
+# Moves security videos from root of FTP folder to a folder named todays date
 #
 echo ""
 echo "videomove.sh - moves security .mkv videos"
@@ -8,11 +8,13 @@ echo ""
 # old expression, new expression to see if folder is not in command line below
 # if [ "$1" == "" ] ; then
 if [ -z "$1" ]; then
-   echo "Script requires a path to videos.  Try $0 /mnt/path"
+   echo "Script requires a path to videos.  Try $0 /mnt/usb1/ftp/ftp/security/FI9831P_00626E62878A/record"
    echo ""
    exit 1
 else
   # Set Variables - need vid folder, today and tomorrows date
+  # outcam - /mnt/usb0/ftp/ftp/security/FI9831P_00626E62878A/record
+  # incam - /mnt/usb0/ftp/ftp/security/C1_00626E60AAC1/record
   viddir="$1"
   today=`date +%F`
   tomorrow=`date '+%Y-%m-%d' -d '+1 day'`
@@ -22,8 +24,8 @@ else
   echo "Find videos modified today..."
 
   # Find videos in video path that were modified today and exclude files newer than today
-  # find /mnt/path -type f -name "*.mkv" -newermt 2016-01-29 ! -newermt 2016-01-30
-  # find /mnt/path -type f -name "*.mkv" -newermt 2016-02-12 ! -newermt 2016-02-13
+  # find /mnt/usb0/ftp/ftp/security/FI9831P_00626E62878A/record -type f -name "*.mkv" -newermt 2016-01-29 ! -newermt 2016-01-30
+  # find /mnt/usb0/ftp/ftp/security/C1_00626E60AAC1/record -type f -name "*.mkv" -newermt 2016-02-12 ! -newermt 2016-02-13
   find $viddir -maxdepth 1 -type f -name "*.mkv" -newermt $today ! -newermt $tomorrow | grep "." > /dev/null
 
   # If find command finds files created today, then
