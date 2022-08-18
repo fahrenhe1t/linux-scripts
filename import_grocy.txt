@@ -1,0 +1,253 @@
+1	Aluminum foil
+2	Ammonia
+3	Antacid
+4	Apples
+5	Applesauce
+6	Apricots
+7	Asparagus
+8	Aspirin
+9	Avocados
+10	Baby Food
+11	Baby Formula
+12	Baby Wipes
+13	Bacon
+14	Bagels
+15	Baked Beans
+16	Baking Chocolate
+17	Baking Powder
+18	Baking Soda
+19	Bananas
+20	Batteries - AA
+21	Batteries - AAA
+22	Batteries - C
+23	Batteries - D
+24	BBQ Sauce
+25	Beans
+26	Beer
+27	Biscuit Mix
+28	Bleach
+29	Bread - french
+30	Bread - wheat
+31	Bread - white
+32	Broccoli
+33	Butter
+34	Cabbage
+35	Cake Mix
+36	Candy
+37	Cantaloupe
+38	Carrots
+39	Cat Food
+40	Cat Litter
+41	Cauliflower
+42	Celery
+43	Cereal
+44	Charcoal
+45	Cheese - American
+46	Cheese - Blue
+47	Cheese - Cheddar
+48	Cheese - Cream
+49	Cheese - Laughing
+50	Cheese - Mont Jack
+51	Cheese - Mozzarella
+52	Cheese - Parmesan
+53	Cheese - Ricotta
+54	Cheese - String
+55	Cherries
+56	Chicken - breast
+57	Chicken - strips
+58	Chicken - whole
+59	Chili
+60	Chips - potato
+61	Chips - tortilla
+62	Chocolate Chips
+63	Cinnamon
+64	Cocoa
+65	Coconut
+66	Coffee
+67	Cookies
+68	Corn
+69	Corn Meal
+70	Corn on the cob
+71	Corn Syrup
+72	Cornstarch
+73	Cottage Cheese
+74	Crackers
+75	Crackers - Ritz
+76	Crackers - Saltine
+77	Cream
+78	Cream - whipping
+79	Cucumber
+80	Cup Noodles
+81	Dental Floss
+82	Deodorant
+83	Detergent - Dishwasher
+84	Detergent - Laundry
+85	Diapers
+86	Dish scrubber
+87	Dog Food
+88	Eggs
+89	English Muffins
+90	Fabric Softener
+91	Feminine Hygiene
+92	Film
+93	Fish
+94	Fish Sticks
+95	Flour
+96	Formula
+97	Freezer Bags
+98	French Fries
+99	Garbage Bags
+100	Garlic
+101	Glass Cleaner
+102	Graham Crackers
+103	Grapefruit
+104	Grapes
+105	Green Beans
+106	Green Peppers
+107	Greeting Card
+108	Ham
+109	Hamburger
+110	Hamburger  Buns
+111	Hash Browns
+112	Honey
+113	Horseradish
+114	Hotdog Buns
+115	Hotdogs
+116	Ibuprofen
+117	Ice Cream
+118	Jalapenos
+119	Jam
+120	Jello
+121	Jelly
+122	Juice
+123	Ketchup
+124	Kidney Beans
+125	Lasagna
+126	Lean Pockets
+127	Lemon Juice
+128	Lemons
+129	Lettuce
+130	Light bulbs -  60w
+131	Light bulbs -  75w
+132	Light bulbs - 100w
+133	Light bulbs - LED
+134	Limes
+135	Lunch meat
+136	Macaroni
+137	Margarine
+138	Mayonnaise
+139	Milk
+140	Mint
+141	Molasses
+142	Mouthwash
+143	Mushrooms
+144	Mustard
+145	Napkins
+146	Nectarines
+147	Noodles
+148	Oatmeal
+149	Oil - Olive
+150	Oil - Vegetable
+151	Olives
+152	Onions
+153	Orange Juice
+154	Orange Juice - frozen
+155	Oranges
+156	Oven Cleaner
+157	Pancake Mix
+158	Paper Towels
+159	Peaches
+160	Peanut Butter
+161	Peanuts
+162	Pears
+163	Peas 
+164	Pepper
+165	Peppers - Bell
+166	Pickle Relish
+167	Pickles
+168	Pineapple
+169	Pinto Beans
+170	Pizza
+171	Plastic Wrap
+172	Plums
+173	Popcorn
+174	Pork & Beans
+175	Pork Chops
+176	Potatoes
+177	Prescription
+178	Pretzels
+179	Pudding
+180	Pumpkin
+181	Raisins
+182	Ravioli
+183	Razor Blades
+184	Refried Beans
+185	Relish
+186	Rice
+187	Roast Beef
+188	Rolls
+189	Rubbing Alcohol
+190	Salad Dressing
+191	Salmon
+192	Salt
+193	Sandwich Bags
+194	Sauerkraut
+195	Sausage
+196	Sausage - frozen
+197	Scallops
+198	Screws
+199	Shampoo
+200	Shaving Cream
+201	Shortening
+202	Shrimp
+203	Soap - Bath
+204	Soap - dishes
+205	Soap - Hand
+206	Soap scum remover
+207	Soda Pop
+208	Soup
+209	Sour Cream
+210	Soy Sauce
+211	Spaghetti
+212	Spaghetti - frozen
+213	Spaghetti Sauce 
+214	Sponge
+215	Squash
+216	Steak
+217	Steak Sauce
+218	Storage Bags
+219	Strawberries
+220	String Beans
+221	Sugar - brown
+222	Sugar - powdered
+223	Sugar - white
+224	Sweet Potato
+225	Syrup
+226	Taco Shells
+227	Tea bags
+228	Tissues
+229	Toilet Bowl Cleaner
+230	Toilet Paper
+231	Tomato
+232	Tomato Paste
+233	Tomato Sauce
+234	Toothpaste
+235	Tortillas - Corn
+236	Tortillas - Flour
+237	Trash Bags
+238	Tums
+239	Tuna
+240	Turkey
+241	Vacuum bags
+242	Vanilla Extract
+243	Vitamins
+244	Waffles
+245	Water
+246	Watermelon
+247	Waxed Paper
+248	Wine
+249	Worcestershire
+250	Yams
+251	Yeast
+252	Yogurt
+253	Zucchini
